@@ -6,18 +6,14 @@ package Edge;
 public class Carretera implements Edge {
 
     private int objectID;
-    private String ruta;
-    private String tipo;
-    private String nRuta;
-    private String rl;
+    private String src;
+    private String dest;
     private double shapeLength;
 
-    public Carretera(int objectID, String ruta, String tipo, String nRuta, String rl, double shapeLength) {
+    public Carretera(int objectID, String src, String dest, double shapeLength) {
         this.objectID = objectID;
-        this.ruta = ruta;
-        this.tipo = tipo;
-        this.nRuta = nRuta;
-        this.rl = rl;
+        this.src = src;
+        this.dest = dest;
         this.shapeLength = shapeLength;
     }
 }

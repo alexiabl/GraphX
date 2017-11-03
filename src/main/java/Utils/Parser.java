@@ -24,7 +24,6 @@ public class Parser {
 
     public void parseJson(String filepath) throws FileNotFoundException {
         Object obj = parser.parse(new FileReader(filepath));
-        JSonOb
 
     }
 
