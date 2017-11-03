@@ -1,9 +1,7 @@
-package Vertex;
+package Edge;
 
 /**
  * Created by alexiaborchgrevink on 11/1/17.
  */
-public class Canton {
-
-
+public interface Edge {
 }
